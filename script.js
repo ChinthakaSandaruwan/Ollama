@@ -8,7 +8,13 @@ async function test() {
         prompt: "why is the sky blue?",
     };
 
-    let request = await fetch(url);
+    let request = await fetch(
+        url,
+        {
+            method: "POST",
+            body: JSON.stringify(data),
+        }
+    );
 
 }
 
