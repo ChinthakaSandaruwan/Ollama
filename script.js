@@ -17,10 +17,3 @@ async function test() {
     );
 
 }
-
-
-
-// curl http://localhost:11434/api/generate -d '{
-//   "model": "gemma3",
-//   "prompt": "Why is the sky blue?"
-// }'
